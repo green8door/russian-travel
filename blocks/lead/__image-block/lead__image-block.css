@@ -1,0 +1,18 @@
+.lead__image-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 148px;
+  }
+  @media screen and (max-width: 1024px) {
+    .lead__image-block {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image-block {
+        padding: 0;
+    }
+}   

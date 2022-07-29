@@ -1,0 +1,31 @@
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+.footer__links li {
+    margin-right: 18px;
+}
+
+.footer__links li:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        flex-direction: column;
+    }
+
+    .footer__links li {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .footer__links li:last-of-type {
+        margin-bottom: 48px;
+    }
+}
