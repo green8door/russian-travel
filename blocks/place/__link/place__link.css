@@ -4,7 +4,7 @@
     line-height: 22px;
     font-weight: 400;
     transition: opacity .4s ease;
-       }
+}
 
 .place__link:hover {
     opacity: 0.7;
@@ -14,4 +14,4 @@
     .place__link {
         padding: 0 16px;
     }
-}  
+}

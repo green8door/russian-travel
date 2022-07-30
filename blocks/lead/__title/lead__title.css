@@ -6,16 +6,29 @@
     text-align: center;
     padding: 56px 0 0;
     margin: 0 auto;
+    text-rendering: optimizeLegibility;
 }
+
 @media screen and (max-width: 1024px) {
     .lead__title {
-     padding: 48px 0 0;
+        padding: 48px 0 0;
     }
-  }
+}
 
 @media screen and (max-width: 768px) {
     .lead__title {
-     padding: 48px 0 0;
+        padding: 48px 0 0;
+        font-size: 70px;
+        line-height: 64px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .lead__title {
+        max-width: 288px;
+        font-size: 40px;
+        line-height: 44px;
+        padding: 48px 0 0;
     }
 }
 
@@ -25,5 +38,5 @@
         font-size: 40px;
         line-height: 44px;
         padding: 48px 0 0;
-     }
-  }
+    }
+}
